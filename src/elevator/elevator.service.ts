@@ -5,9 +5,7 @@ import { addRequestedFloorsDto } from './dto/requestedFloors-elevator.dto';
 
 export class ElevatorService {
   private elevatorState = {
-    currentFloor: 1,
     doorsOpen: false,
-    isStopped: false,
     requestedFloors: []
   };
 
